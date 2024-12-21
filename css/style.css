@@ -1,7 +1,4 @@
 /* navbar start*/
-body {
-    height: 2000px;
-}
  @media (max-width: 768px) {
     #navbar-container {
         display: flex;
