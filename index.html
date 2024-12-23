@@ -13,11 +13,11 @@
     <script src="js/script.js" defer></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md bg-secondary navbar-light">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
       <div class="container" id="navbar-container">
         <a href="#" class="navbar-brand">
           <i class="fab fa-apple"></i>
-          Tasktugas
+          Apple
         </a>
         <div id="ulContainer" class="d-md-inline" style="display: none">
           <ul class="navbar-nav">
@@ -36,8 +36,8 @@
             <li class="nav-item">
               <a
                 href="#"
-                class="nav-link btn"
-                style="background: greenyellow; padding: 8px"
+                class="nav-link btn text-dark"
+                style="background: white; padding: 8px 10px"
               >
                 Get Started
                 <i class="fa-solid fa-angle-right ms-1"></i>
@@ -53,9 +53,9 @@
         >
           <button
             class="btn"
-            style="padding: 3px 15px; border: 5px solid greenyellow"
+            style="padding: 3px 15px; border: 5px solid silver"
           >
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars text-white"></i>
           </button>
         </a>
       </div>
@@ -63,7 +63,7 @@
     <!-- row1 -->
     <div class="container mt-4">
       <div class="row g-4">
-        <div class="col-12 col-md-5 col-lg-7 mb-3">
+        <div class="col col-lg-4-12 col-md-5 col-lg-7 mb-3">
           <div class="boost-container">
             <p>
               <i class="fa-solid fa-circle-check me-1"></i>
@@ -76,13 +76,19 @@
               TaskMaster's Intuitive mobile app ensures you're always on top of
               your tasks,so deadlines become a breeze.
             </p>
-            <button class="btn btn-secondary me-2">
-              <i class="fa-brands fa-google-play" style="color: orangered"></i>
+            <button
+              class="btn me-lg-2 text-light"
+              style="background-color: rgb(52, 168, 83)"
+            >
+              <i
+                class="fa-brands fa-google-play"
+                style="color: rgb(251, 188, 5)"
+              ></i>
               Google Play
             </button>
-            <button class="btn btn-secondary">
+            <button class="btn btn-dark">
               <i
-                class="fab fa-apple text-dark me-1"
+                class="fab fa-apple text-light me-1"
                 style="font-size: 20px"
               ></i>
               App Store
@@ -91,12 +97,12 @@
         </div>
         <div class="col-12 col-md-7 col-lg-5 mb-3">
           <img
-            src="images/ipone3.jpg"
-            alt="photo"
+            src="https://rakalogics.com/wp-content/uploads/2024/07/iPhone-16-Pro-Max-All-the-Rumors-and-Leaks-So-Far.jpg"
+            alt="iphone"
             style="
               width: 100%;
               border-radius: 20px;
-              box-shadow: 10px 10px 5px gray;
+              box-shadow: 8px 8px 5px grey;
             "
           />
         </div>
@@ -105,13 +111,12 @@
     <!-- row2 -->
     <div class="container mt-4">
       <div class="row g-4">
-        <div class="col-12 col-md-5 col-lg-7 mb-4">
+        <div class="col-12 col-md-5 col-lg-7 mb-3">
           <img
-            src="https://images.unsplash.com/photo-1734467363155-8a7014e458a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D"
+            src="https://nextrift.com/wp-content/uploads/2023/11/apple-macbook-pro-14-m3-hands-on-17-1024x576.jpg"
             alt="photo"
             style="border-radius: 10px; width: 100%"
           />
-          <!-- text write in photo  -->
         </div>
         <div class="col col-md-7 col-lg-5">
           <div class="card p-2 mb-3">
@@ -121,24 +126,70 @@
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
                 fuga sapiente consequuntur illum? Sunt mollitia ratione ullam
-                dolores numquam doloremque, voluptatem molestiae necessitatibus
-                hic odit voluptas est, quis natus tempora.
+                dolores numquam doloremque, voluptatem molestiae.
               </p>
             </div>
           </div>
           <div class="card p-2">
             <div class="card-body">
               <i class="fa-solid fa-desktop" style="font-size: 16px"></i>
-              <h4>Seamless Integration Productivity with Tools</h4>
+              <h4>Integration Productivity with Tools</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Consequuntur eveniet illum inventore autem laboriosam veritatis
-                numquam, placeat excepturi ad a eos, labore atque corrupti
-                provident earum unde hic id magni?
+                numquam, placeat excepturi ad a eos.
               </p>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <!-- carousel -->
+    <div class="container-fluid mt-5" style="background: black">
+      <div class="container" style="position: relative">
+        <i
+          id="prev"
+          class="fa-solid fa-circle-chevron-left text-light"
+          style="position: absolute; top: 50%; left: 6%; font-size: 30px"
+        ></i>
+        <i
+          id="next"
+          class="fa-solid fa-circle-chevron-right text-light"
+          style="position: absolute; top: 50%; right: 6%; font-size: 30px"
+        ></i>
+        <img
+          class="img"
+          id="img1"
+          src="https://media.gq.com/photos/6500b4a601a49626f1f39a9b/16:9/w_2560%2Cc_limit/Apple-iPhone-15-Pro-lineup-hero-230912.jpg"
+          alt=""
+        />
+
+        <img
+          class="img"
+          id="img2"
+          src="https://m-cdn.phonearena.com/images/article/131038-wide-two_1200/New-iPhone-13-Pro-5G-report-matte-black-color-better-Portrait-mode-more.jpg"
+          alt=""
+        />
+
+        <img
+          class="img"
+          id="img3"
+          src="https://www.apple.com/newsroom/videos/iphone-15-pro-action-button/posters/Apple-iPhone-15-Pro-lineup-Action-button-230912.jpg.large_2x.jpg"
+          alt=""
+        />
+
+        <img
+          class="img"
+          id="img4"
+          src="https://appletrack.com/wp-content/uploads/2021/04/iPhone13PRO2-scaled.jpg"
+          alt=""
+        />
+
+        <img
+          class="img"
+          id="img5"
+          src="https://www.plug.tech/cdn/shop/articles/F52AYARWgAADm7P.jpg?crop=center&height=1200&v=1694543231&width=1200"
+        />
       </div>
     </div>
     <!-- row3 -->
@@ -153,8 +204,13 @@
           </p>
           <div class="card mt-4">
             <div class="card-body">
-              <img src="images/profile.png" alt="profile" style="width: 50px" />
-              <span class="ms-1"><b>Xiao Shenn</b></span>
+              <img
+                src="images/profile1.png"
+                alt="profile"
+                style="width: 50px"
+              />
+              <span class="ms-1"><b>Lord Shenn</b></span>
+              <i class="ms-1">(Team leader)</i>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reiciendis optio magnam dolorem reprehenderit molestiae autem.
@@ -163,7 +219,17 @@
           </div>
         </div>
         <div id="to-do" class="col-12 col-md-7 col-lg-5">
-          <div class="card mt-5" style="padding: 30px 10px">
+          <div
+            class="card mt-5"
+            style="
+              padding: 30px 10px;
+              background: linear-gradient(
+                90deg,
+                rgb(198, 195, 250),
+                whitesmoke
+              );
+            "
+          >
             <div class="card-body">
               <h4><b>To do</b>(8)</h4>
               <div class="card mt-3 p-3">
@@ -221,9 +287,15 @@
     </div>
     <!-- row4 -->
     <div class="container mt-4">
-      <div class="row g-4" style="display: flex;align-items: center;">
+      <div class="row g-4" style="display: flex; align-items: center">
         <div class="col-12 col-md-6 col-lg-7">
-          <div class="card" style="padding: 30px 10px">
+          <div
+            class="card"
+            style="
+              padding: 30px 10px;
+              background: linear-gradient(20deg, palegreen, whitesmoke);
+            "
+          >
             <div class="card-body">
               <div class="card" style="width: 100%">
                 <div class="card-body">
@@ -288,7 +360,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="alert alert-info mt-3">
+                  <div class="alert mt-3" style="background: gainsboro">
                     <i class="fa-solid fa-video me-1"></i>
                     <span><b>Meeting</b></span>
                     <span class="float-end">
@@ -306,60 +378,508 @@
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-5">
-              <div class="mb-4" style="border-bottom: 1px solid gray;">
-                <h4>Smart Reminders</h4>
-                <h4>and Notifications</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione vitae cupiditate odit? Reiciendis, libero quae!
-                </p>
+          <div class="mb-4" style="border-bottom: 1px solid gray">
+            <h4>Smart Reminders</h4>
+            <h4>and Notifications</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              vitae cupiditate odit? Reiciendis, libero quae!
+            </p>
+          </div>
+          <div style="display: flex; justify-content: space-between">
+            <div>
+              <div class="mb-2">
+                <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
+                <span>Lorem consectetur</span>
               </div>
-              <div style="display: flex; justify-content: space-between;">
+              <div class="mb-2">
+                <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
+                <span>Lorem consectetur</span>
+              </div>
+              <div class="mb-2">
+                <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
+                <span>Lorem consectetur</span>
+              </div>
+              <div class="mb-2">
+                <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
+                <span>Lorem consectetur</span>
+              </div>
+              <div class="mb-2">
+                <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
+                <span>Lorem consectetur</span>
+              </div>
+            </div>
+            <div>
+              <div class="mb-2">
+                <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
+                <span>Lorem consectetur</span>
+              </div>
+              <div class="mb-2">
+                <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
+                <span>Lorem consectetur</span>
+              </div>
+              <div class="mb-2">
+                <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
+                <span>Lorem consectetur</span>
+              </div>
+              <div class="mb-2">
+                <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
+                <span>Lorem consectetur</span>
+              </div>
+              <div class="mb-2">
+                <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
+                <span>Lorem consectetur</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- row5 -->
+    <div class="container mt-4">
+      <div class="row g-4" style="display: flex; align-items: center">
+        <div class="col-12 col-md-6 col-lg-7 mb-4">
+          <div class="mb-4" style="border-bottom: 1px solid black">
+            <h4>Team Collaboration</h4>
+            <h4>Made Easy</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestiae quam deleniti ratione nisi consectetur numquam.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6 mb-3">
+              <i class="fa-solid fa-user-plus mb-3"></i>
+              <div><b>Invite Your Team</b></div>
+              <div>Lorem ipsum dolor sit amet.</div>
+              <div>consectetur adipisicing elit</div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <i class="fa-solid fa-desktop mb-3"></i>
+              <div><b>Cross-Device Collaboration</b></div>
+              <div>Lorem ipsum dolor sit amet.</div>
+              <div>consectetur adipisicing elit</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-5">
+          <div
+            class="card"
+            style="
+              padding: 30px 10px;
+              background: linear-gradient(
+                180deg,
+                rgba(221, 160, 221, 0.667),
+                whitesmoke
+              );
+            "
+          >
+            <div class="card-body">
+              <div class="card">
+                <div class="card-body">
+                  <div class="mb-3">
+                    <span><b>Share</b></span>
+                    <a href="#" class="btn-close float-end"></a>
+                  </div>
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-select"
+                      placeholder="Search member"
+                    />
+                    <button type="submit" class="btn btn-success">
+                      Invite
+                    </button>
+                  </div>
+                  <div class="mb-4">
+                    <i class="fa-solid fa-lock me-2"></i>
+                    <span>Only people invited</span>
+                    <span class="float-end"><b>Access</b></span>
+                  </div>
+                  <div style="display: flex; justify-content: space-between">
+                    <div>
+                      <i class="fa-solid fa-plus" style="font-size: 30px"></i>
+                      <p class="mt-2">Add</p>
+                    </div>
+                    <div>
+                      <img
+                        src="images/profile2.png"
+                        alt="profile"
+                        width="40px"
+                      />
+                      <p class="ms-1">Bob</p>
+                    </div>
+                    <div>
+                      <img
+                        src="images/profile3.png"
+                        alt="profile"
+                        width="40px"
+                      />
+                      <p class="ms-1">John</p>
+                    </div>
+                    <div>
+                      <img
+                        src="images/profile4.png"
+                        alt="profile"
+                        width="40px"
+                      />
+                      <p class="ms-1">Alice</p>
+                    </div>
+                    <div>
+                      <img
+                        src="images/profile5.png"
+                        alt="profile"
+                        width="40px"
+                      />
+                      <p class="ms-1">Rose</p>
+                    </div>
+                  </div>
+                  <div
+                    style="
+                      border: 1px solid gray;
+                      padding: 10px 12px;
+                      border-radius: 8px;
+                    "
+                  >
+                    <i class="fa-solid fa-link me-2"></i>
+                    <a href="#" class="text-dark" style="text-decoration: none"
+                      >ggoole.com/awncef</a
+                    >
+                    <i class="fa-regular fa-clone float-end"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- row6 -->
+    <div class="container-fluid bg-dark mt-5 p-4">
+      <div class="container text-white">
+        <div
+          id="productivity"
+          style="display: flex; justify-content: space-between"
+        >
+          <div>
+            <h4>Trusted by Over 1Million Users</h4>
+            <h4>for Supercharging Productivity</h4>
+          </div>
+          <div class="row g-4">
+            <div class="col-12 col-lg-4">
+              <h4>4M+</h4>
+              <p>Download</p>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h4>4.8</h4>
+              <p>3.2MRatings</p>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h4>No.1</h4>
+              <p>Productivity</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-4 col-md-2 mb-3"><b>SAMSUNG</b></div>
+          <div class="col-4 col-md-2 mb-3"><b>VISA</b></div>
+          <div class="col-4 col-md-2 mb-3"><b>SONY</b></div>
+          <div class="col-4 col-md-2 mb-3">
+            <i class="fa-brands fa-apple me-1"></i><b>Apple</b>
+          </div>
+          <div class="col-4 col-md-2 mb-3"><b>FedEx</b></div>
+          <div class="col-4 col-md-2 mb-3"><b>Meta</b></div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container-fluid p-4 text-white"
+      style="background-color: rgb(52, 168, 83)"
+    >
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-12 col-md-6">
+            <div class="mb-4">
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <h4>adipisicing elit. Inventore ducimus</h4>
+              <h4>dolorem doloribus repellendus, minus</h4>
+              <h4>laudantium recusandae, iste unde</h4>
+            </div>
+            <div style="margin-bottom: 150px">
+              <img
+                src="images/profile6.png"
+                alt="profile"
+                style="width: 40px"
+              />
+              <span><b>Mr Saw</b></span>
+              <span>.CEO.</span>
+              <span>Apple Company</span>
+            </div>
+            <div
+              id="download"
+              style="
+                border: 1px solid white;
+                padding: 10px 18px;
+                border-radius: 8px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div>
+                <h3>4M+</h3>
+                <p>Download</p>
+              </div>
+              <div>
+                <div class="mb-3">
+                  <button
+                    type="submit"
+                    style="
+                      border-radius: 20px;
+                      padding: 8px 15px;
+                      border: 0 none;
+                      background: white;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-google-play me-2"
+                      style="color: orangered"
+                    ></i
+                    >Google Play
+                  </button>
+                </div>
                 <div>
-                    <div class="mb-2">
-                        <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
-                        <span>Lorem consectetur</span>
-                      </div>
-                      <div class="mb-2">
-                        <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
-                        <span>Lorem consectetur</span>
-                      </div>
-                      <div class="mb-2">
-                        <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
-                        <span>Lorem consectetur</span>
-                      </div>
-                      <div class="mb-2">
-                        <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
-                        <span>Lorem consectetur</span>
-                      </div>
-                      <div class="mb-2">
-                        <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
-                        <span>Lorem consectetur</span>
-                      </div>
-                  </div>
-                  <div>
-                    <div class="mb-2">
-                        <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
-                        <span>Lorem consectetur</span>
-                      </div>
-                      <div class="mb-2">
-                        <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
-                        <span>Lorem consectetur</span>
-                      </div>
-                      <div class="mb-2">
-                        <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
-                        <span>Lorem consectetur</span>
-                      </div>
-                      <div class="mb-2">
-                        <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
-                        <span>Lorem consectetur</span>
-                      </div>
-                      <div class="mb-2">
-                        <i class="fa-solid fa-circle me-1" style="font-size: 8px"></i>
-                        <span>Lorem consectetur</span>
-                      </div>
-                  </div>
+                  <button
+                    type="submit"
+                    style="
+                      border-radius: 20px;
+                      padding: 8px 24px;
+                      border: 0 none;
+                      background: white;
+                    "
+                  >
+                    <i class="fa-brands fa-apple me-2"></i>App Store
+                  </button>
+                </div>
               </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div style="border-bottom: 1px solid silver; padding-bottom: 12px">
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit..
+              </div>
+              <div>
+                perspiciatis distinctio veniam exercitationem placeat vel
+              </div>
+              <div>commodi consequatur quo! Corrupti animi</div>
+              <div class="mt-3">
+                <img
+                  src="images/profile2.png"
+                  alt="profile"
+                  style="width: 40px"
+                />
+                <span><b>Zeen</b>-Projectmanger.Surga</span>
+              </div>
+            </div>
+            <div
+              class="mt-4"
+              style="border-bottom: 1px solid sil; padding-bottom: 12px"
+            >
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit..
+              </div>
+              <div>
+                perspiciatis distinctio veniam exercitationem placeat vel
+              </div>
+              <div>commodi consequatur quo! Corrupti animi</div>
+              <div class="mt-3">
+                <img
+                  src="images/profile4.png"
+                  alt="profile"
+                  style="width: 40px"
+                />
+                <span><b>Been</b>-HRD.Neraka</span>
+              </div>
+            </div>
+            <div
+              class="mt-4"
+              style="border-bottom: 1px solid silver; padding-bottom: 12px"
+            >
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit..
+              </div>
+              <div>
+                perspiciatis distinctio veniam exercitationem placeat vel
+              </div>
+              <div>commodi consequatur quo! Corrupti animi</div>
+              <div class="mt-3">
+                <img
+                  src="images/profile5.png"
+                  alt="profile"
+                  style="width: 40px"
+                />
+                <span><b>Kate</b>-HeadofMarketing.Hacim</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- row7 -->
+    <div class="container-fluid" style="padding: 100px 0px; background: white">
+      <div class="container">
+        <div class="mb-5">
+          <h2 class="text-center">Download Apple Now and</h2>
+          <h2 class="text-center">Transform the Way You Work!</h2>
+        </div>
+        <div class="row" style="text-align: center">
+          <div class="col-12 col-md-6 mb-2">
+            <button
+              class="text-white"
+              type="submit"
+              style="
+                padding: 10px 25px;
+                border-radius: 40px;
+                background-color: black;
+              "
+            >
+              <i class="fa-regular fa-paper-plane me-1"></i> Wonderful Design
+            </button>
+          </div>
+          <div class="col-12 col-md-6">
+            <button
+              class="text-white"
+              type="submit"
+              style="
+                padding: 10px 25px;
+                border-radius: 40px;
+                background-color: plum;
+                border: 0 none;
+              "
+            >
+              GoodJob Bro<i class="fa-solid fa-paper-plane ms-1"></i>
+            </button>
+          </div>
+        </div>
+        <div style="width: 100%; margin: 0 auto">
+          <img
+            src="https://www.silicon.co.uk/wp-content/uploads/2023/09/Apple-iPhone-15-Pro-lineup-02.jpg"
+            alt="iphone"
+            style="width: 100%; border-radius: 30px"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- row8 -->
+    <div
+      class="container-fluid"
+      style="padding: 100px 0px 30px 0px; background: whitesmoke"
+    >
+      <div class="container">
+        <div class="row">
+          <div id="info" class="col-12 col-md-6 mb-5 pb-4">
+            <div class="mb-4">
+              <i class="fa-brands fa-apple me-1" style="font-size: 28px"></i>
+              <h4 style="display: inline">Apple</h4>
+            </div>
+            <div class="mb-4">
+              <div>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </div>
+              <div>
+                repellendus aut odit laudantium incidunt nostrum magnam, rem
+              </div>
+              <div>amet consectetur adipisicing elit. Accusamus, a?</div>
+            </div>
+            <div class="mb-4">
+              <i
+                class="fa-solid fa-location-dot me-1"
+                style="font-size: 22px"
+              ></i>
+              <span
+                >Anywhere,321 St Any City, Amazing, Elegant, New Country</span
+              >
+            </div>
+            <div class="mb-4">
+              <i
+                class="fa-regular fa-envelope me-1"
+                style="font-size: 22px"
+              ></i>
+              <span>contact@apple.com</span>
+            </div>
+            <div class="mb-3">
+              <i class="fa-solid fa-phone me-1" style="font-size: 22px"></i>
+              <span>+123 456 789</span>
+            </div>
+            <div style="margin-top: 50px">
+              <p>Social Media</p>
+              <i class="fa-brands fa-twitter me-2" style="font-size: 28px"></i>
+              <i class="fa-brands fa-facebook me-2" style="font-size: 28px"></i>
+              <i class="fa-brands fa-telegram me-2" style="font-size: 28px"></i>
+              <i class="fa-brands fa-instagram" style="font-size: 28px"></i>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div style="display: flex; justify-content: space-between">
+              <div>
+                <h4 class="mb-3">Company</h4>
+                <p>About Us</p>
+                <p>Pricing</p>
+                <p>Careers</p>
+                <p>Press</p>
+                <p>Contact</p>
+              </div>
+              <div class="ms-2">
+                <h4 class="mb-3">Product</h4>
+                <p>Team Boards</p>
+                <p>Interactive Reports</p>
+                <p>Group Analytics</p>
+                <p>Data Integrations</p>
+                <p>Security & Privacy</p>
+                <p>Integration Director</p>
+              </div>
+              <div>
+                <h4 class="mb-3">Recources</h4>
+                <p>Product Updates</p>
+                <p>Customer Storie</p>
+                <p>Testimonials</p>
+                <p>Contact Us</p>
+                <p>Blog</p>
+                <p>FAQs</p>
+              </div>
+            </div>
+            <div class="float-end mt-4">
+              <p>Download App</p>
+              <button class="btn btn-dark me-lg-2">
+                <i class="fa-brands fa-google-play" style="color: yellow"></i>
+                Google Play
+              </button>
+              <button class="btn btn-dark">
+                <i
+                  class="fab fa-apple text-white me-1"
+                  style="font-size: 20px"
+                ></i>
+                App Store
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid" style="border-top: 1px solid silver">
+      <div
+        id="footer"
+        class="container py-4"
+        style="display: flex; justify-content: space-between"
+      >
+        <div class="mb-3">
+          <p>Copyright&copy;2024 Apple.All Right Reserved.</p>
+        </div>
+        <div>
+          <span class="me-4 float-start"><b>Terms of Service</b></span>
+          <span class="float-end"><b>Privacy Policy</b></span>
         </div>
       </div>
     </div>
